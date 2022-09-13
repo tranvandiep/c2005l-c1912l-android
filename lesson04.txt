@@ -1,0 +1,44 @@
+Nội dung kiến thức:
+	- Content Provider:
+		- SharedPreferences
+			- Luu thong tin config (key -> value: int, string, boolean)
+			<nodes>
+				<dataList><![CDATA[sdhfksdhfkdsfh]]></dataList>
+			</nodes>
+		- Internal Storage/External Storage -> Cấp quyền từ system.
+			- Set permission
+			- Internal/External Storage
+			- Cach luu tru: (Java 2)
+				- Text: FileInputStream/FileOutputStream & Buffered ...
+				- Binary
+					ObjectInputStream/ObjectOutputStream
+						- Luu nhieu phan tu vao trong file (Java 2)
+						- Luu List vao trong file (Android)
+		- sqlite:
+			- Dung khung ket noi CSDL
+			- Tao database & tao tables
+create table students (
+	_id integer primary key autoincrement,
+	rollno varchar(20),
+	fullname varchar(50),
+	email varchar(150),
+	address varchar(200)
+)
+
+				- Ko de y:
+					Example:
+						-> publish -> CH Play
+					v1:
+						Student, Subject
+					v2:
+						Semester, Mark
+						Student -> bo sung them vai columns
+					-> Biet cach xu ly du lieu:
+
+					Dev:
+						- uninstall -> reinstall (App chay bt).
+
+			- insert/update/delete/select tu tables
+	- ListView: Kết nối tới CSDL -> CursorAdapter
+	- Custom Dialog -> layout
+====================================================================

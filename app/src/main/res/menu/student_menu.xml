@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_edit_student"
+        android:title="Edit student"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_delete_student"
+        android:title="Delete student"
+        android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/man" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ib_bookname"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name" />
+
+        <TextView
+            android:id="@+id/ib_authorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roll No - Phone" />
+
+        <TextView
+            android:id="@+id/ib_nxb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/ib_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+    </LinearLayout>
+</LinearLayout>

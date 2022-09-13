@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.gokisoft.example.DetailActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ad_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Show fullname"
+        android:layout_marginBottom="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/ad_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="show email"
+        android:layout_marginBottom="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ad_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="show address"
+        android:layout_marginBottom="20dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ad_close_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close" />
+</LinearLayout>

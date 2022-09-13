@@ -1,0 +1,16 @@
+Nội dung kiến thức:
+	- RecyleView -> ListView
+	- Broadcast/Receiver (Activity & Activity - Services)
+		- BroadcastReceiver: lang nghe du lieu gui toi -> dang ky voi he thong action ma no se
+		- sendBroadcast -> intent & action
+=======================================================================
+Phát triển 1 dự án mini project: Quản lý sách
+	- BookActivity: Hiển thị danh sách quấn sách (RecycleView) hiển thị
+	- BookEditorActivity: Thêm/sửa sách
+
+	- Book:
+		- Tên sách
+		- Tên tác giả
+		- Giá bán
+		- NXB
+

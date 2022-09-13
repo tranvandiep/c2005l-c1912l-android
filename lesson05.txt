@@ -1,0 +1,27 @@
+Nội dung kiến thức:
+	- Content Provider:
+		- sqlite:
+			- Dung khung ket noi CSDL
+			- Tao database & tao tables
+				create table students (
+					_id integer primary key autoincrement,
+					rollno varchar(20),
+					fullname varchar(50),
+					email varchar(150),
+					address varchar(200)
+				)
+			- insert/update/delete/select tu tables
+	- ListView: Kết nối tới CSDL -> CursorAdapter
+	- Custom Dialog -> layout
+====================================================================
+Các bước tạo dự án:
+	- DBHelper -> OK
+	- Entities
+		- App: tables -> Entities
+			- CRUD: entity
+	- Activity
+		- NewStudentActivity
+			- CRUD -> Làm việc trên 1 activity
+				   -> Thêm/sửa/xoá -> custom dialog
+		- StudentDetailsActivity -> Hiển thị thông tin sinh viên.
+	- Thay icon của app
