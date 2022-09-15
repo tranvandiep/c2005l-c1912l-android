@@ -13,11 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".CounterService"
+            android:enabled="true"
+            android:exported="true"></service>
+
         <activity
-            android:name=".BookEditorActivity"
-            android:exported="false" />
-        <activity
-            android:name=".BookActivity"
+            android:name=".ServicesActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,13 +27,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BookEditorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookActivity"
+            android:exported="true"></activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".SubjectActivity" />
         <activity android:name=".InputSubjectActivity" />
         <activity android:name=".StudentActivity" />
         <activity android:name=".EditorStudentActivity" />
-        <activity android:name=".NewStudentActivity"></activity>
+        <activity android:name=".NewStudentActivity" />
         <activity android:name=".DetailStudentActivity" />
     </application>
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".ServicesActivity">
+
+    <Button
+        android:id="@+id/as_start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Services" />
+
+    <Button
+        android:id="@+id/as_stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Services" />
+
+    <TextView
+        android:id="@+id/as_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0011"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Counter" />
+
+    <Button
+        android:id="@+id/as_download_start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download File" />
+
+    <TextView
+        android:id="@+id/as_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0011"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="100%" />
+
+    <Button
+        android:id="@+id/as_test_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testing Thread" />
+</androidx.appcompat.widget.LinearLayoutCompat>
