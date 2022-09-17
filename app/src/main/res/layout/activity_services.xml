@@ -16,6 +16,7 @@
 
     <Button
         android:id="@+id/as_stop_btn"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Stop Services" />
@@ -33,7 +34,19 @@
         android:id="@+id/as_download_start_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Download File" />
+        android:text="Start Download File" />
+
+    <Button
+        android:id="@+id/as_download_stop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Download File" />
+
+    <Button
+        android:id="@+id/as_download_pause_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Download File" />
 
     <TextView
         android:id="@+id/as_percent"
