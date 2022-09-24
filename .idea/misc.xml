@@ -6,11 +6,17 @@
         <entry key="app/src/main/res/layout/activity_book.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/activity_book_editor.xml" value="0.21614583333333334" />
         <entry key="app/src/main/res/layout/activity_new_note.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/activity_new_note_detail.xml" value="0.21614583333333334" />
         <entry key="app/src/main/res/layout/activity_note.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/activity_services.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/item_book.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/item_note.xml" value="0.23020833333333332" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/new_note_dialog.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/menu/note_context_menu.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/menu/note_menu.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/menu/student_menu.xml" value="0.23020833333333332" />
       </map>
     </option>
   </component>

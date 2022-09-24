@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".NewNoteDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".NewNoteActivity"
             android:exported="true">
             <intent-filter>
@@ -24,8 +27,7 @@
         </activity>
         <activity
             android:name=".NoteActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
 
         <service
             android:name=".CounterService"
@@ -34,7 +36,7 @@
 
         <activity
             android:name=".ServicesActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".BookEditorActivity"
             android:exported="false" />
